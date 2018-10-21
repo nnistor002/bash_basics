@@ -19,7 +19,7 @@ echo "Today's date is: $(date)"
 day=$(date +"%u")
 
 if ((day > 5)); then
-   echo " ITS A WEEKEND"        
+   echo " ITS A WEEKENDgit "        
 else
    echo "ITS A WORKING DAY"
 fi
