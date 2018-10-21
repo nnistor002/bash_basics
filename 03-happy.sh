@@ -18,7 +18,7 @@ fi
 day=$(date +"%u")
 
 if ((day > 5)); then
-   echo "ITS A WEEKEND!!"        
+   echo "ITS A WEEKEND!"        
 else
    echo "ITS NOT A WEEKEND feels bad man..."
 fi
