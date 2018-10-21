@@ -14,3 +14,12 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+echo "Today's date is: $(date)"
+day=$(date +"%u")
+
+if ((day > 5)); then
+   echo " ITS A WEEKEND"        
+else
+   echo "ITS A WORKING DAY"
+fi
