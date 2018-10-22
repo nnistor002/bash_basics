@@ -21,4 +21,5 @@ if ((day > 5)); then
    echo "ITS A WEEKEND!"        
 else
    echo "ITS NOT A WEEKEND feels bad man..."
+
 fi
